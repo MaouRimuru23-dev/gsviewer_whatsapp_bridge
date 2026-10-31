@@ -99,7 +99,7 @@ async function connectToWhatsApp() {
       if (type !== 'notify') return;
 
       for (const msg of messages) {
-        if (msg.key.fromMe) continue;
+        //if (msg.key.fromMe) continue;
 
         const jid = msg.key.remoteJid;
         const text =
